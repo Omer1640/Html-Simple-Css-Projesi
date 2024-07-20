@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <title>İLETİŞİM</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" target="_blank">Ana Sayfa</a></li>
+        <li><a href="tarifler.html" target="_blank">Tarifler</a></li>
+        <li><a href="menuler.html" target="_blank">Menüler</a></li>
+        <li><a href="iletisim.html" target="_blank">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h3>Geri Bildirim Formu</h3>
+  <form>
+    <p><strong>Geri Bildirim Formu Doldurnuz!!!</strong></p>
+
+    <p><select>
+        <option selected="selected" value="1">Title</option>
+        <option value="2">Mr</option>
+        <option value="3">Miss</option>
+        <option value="4">Mrs</option>
+        <option value="5">Other</option>
+      </select></p>
+
+    <p>
+      <label>First name</label>
+      <input type="text" name="first_name">
+    </p>
+
+    <p>
+      <label>Surname</label>
+      <input type="text" name="surname">
+    </p>
+
+    <p>
+      <label>Email</label>
+      <input type="email" name="email" required="">
+    </p>
+
+    <p>
+      <label>Enquiry type:</label>
+      <label><input checked="checked" name="type" type="radio" value="sales" /> Sales</label>
+      <label><input name="type" type="radio" value="support" /> Support</label>
+      <label><input name="type" type="radio" value="billing" /> Billing</label>
+    </p>
+
+    <p>
+      <label>Message</label>
+      <textarea rows="6"></textarea>
+    </p>
+
+    <p>
+      <label for="cars">Choose a car:</label>
+      <select name="cars" id="cars" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+        <option value="audi">Mercedes</option>
+        <option value="audi">Ford</option>
+        <option value="audi">Renault</option>
+        <option value="audi">Togg</option>
+      </select>
+    </p>
+
+    <p>
+      <label>
+        <input type="checkbox" id="checkbox" value="terms">
+        I agree to the <a href="#">terms and conditions</a>
+      </label>
+    </p>
+
+    <button type="submit">Send</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <h2>İletişim Bilgilerim</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>E-mail Hesabım </th>
+        <th>Telefon Numaram</th>
+        <th>X Hesabım </th>
+        <th>Linkledin Hesabım </th>
+        <th>Github Hesabım </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>omerbey162540@gmail.com</td>
+        <td>025462154658</td>
+        <td>@MER1047354</td>
+        <td>Omer Kurnaz</td>
+        <td>Omer1640</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
